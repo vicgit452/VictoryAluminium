@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family:  "DM Sans", sans-serif;
+}
+
+.hero {
+   
+    height: 110vh;
+    background-image: linear-gradient(rgba(1, 1, 1, 0.471),rgba(1, 1, 1, 0.444)),url("bg.png");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    display:flex ;
+    justify-items: center;
+    align-items: center;
+  
+}
+.hero p{
+    color: white;
+}
+.hero h1{
+font-size: 70px;
+
+
+font-weight: 900;
+}
+.txt{
+    margin: auto;
+    display: block;
+    width: 100vh;
+}
+.hero h1,p{
+ 
+    color:white;
+text-align: center; 
+}
+.cont {
+    margin: 10%;
+   
+}
+.hero p{
+    font-size: 20px;
+}
+.cont p{
+    color: black;
+    font-size: large;
+    text-align: start;
+}
+.navbar .nav-link {
+    color: #fff !important;
+  }
+  .navbar.solid {
+    background-color: #1c1a1c;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+  }
+  .info {
+    margin-bottom: 5%;
+  }
+  .rub{
+    display: flex;
+  }
+  .rub img{
+    height: 408px;
+    width: 560px;
+  }
+  .smal{
+    display: flex;
+
+  }
+  .smal h1{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .k{
+    display: block;
+  }
+  .build{
+    margin-top: 5%;
+
+  }
+.ca{
+    display: flex;
+   
+}
+.ca h1{
+    font-weight: 900;
+}
+.ge{
+    display: flex;
+}
+.car {
+    padding: 20px;
+    text-align: center;
+}
+.car h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.car p{
+    text-align: center;
+}
+.lg{
+    width: 100px;
+    height: 100px;
+}
+.prim {
+    background-color: #fff;
+    border: 3px solid black;
+    padding: 10px;
+    color: black;
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    text-decoration: none; /* Ensures that there's no underline */
+}
+
+.prim:hover {
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+}
+.con{
+
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background-image:  linear-gradient(rgba(1, 1, 1, 0.685),rgba(1, 1, 1, 0.756)),url("p.jpg");
+}
+.con .t{
+color: #fff;
+font-size: 20px;
+padding-bottom: 10px;
+font-weight: 700;
+margin-left: 0%;
+margin-right: 0%;
+}
+.cont h1{
+    font-weight: 900;
+ 
+}
+.addr {
+    margin: 5% auto; /* Centers the section horizontally */
+    padding:15px;
+    background-color: #e6e6e6;
+    width: 50%; /* Ensures the section takes up 50% of the parent container's width */
+    border-radius: 8px; /* Optional: Adds some rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a more polished look */
+}
+
+.addr *,p {
+    color: black;
+}
+.maa{
+    border-right: 5px solid black;
+}
+footer {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    padding: 5%; /* Add some padding */
+    background-color: #000000; /* Optional: background color */
+     color:white;
+     padding-bottom: 2%;
+     
+}
+footer a,p{
+    text-decoration: none;
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Ensure the columns wrap if they overflow */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+.col-lg-4 {
+    flex: 1 1 30%; /* Allow columns to take up 30% of the row each */
+    min-width: 250px; /* Prevent the columns from becoming too small */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Add space below each column */
+}
+
+.we {
+    text-align: center; /* Center the 'Made by' text */
+    margin-top: 20px; /* Add space above the 'Made by' text */
+}
+.we img{
+    background-color: #fff;
+    border-radius: 100%;
+}
+.hero .prim{
+    display: block;
+    margin: auto;
+   
+}
+.hero a{
+    text-decoration: none;
+}
+/* responsive */
+@media (max-width: 576px) {
+    .cont{
+        margin: 5%;
+    }
+    .hero{
+        width: 100%;
+        
+    }
+    .hero p{
+        padding: 10px;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+ .rub{
+    display: block;
+    margin-top: 15%;
+    margin-bottom: 10%;
+ }
+ .rub img{
+    height: 300px;
+    width: 325px;
+ }
+ .ca{
+    display: block;
+ }
+ .ge{
+    display: block;
+ }
+ .addr{
+    display: block;
+    width: 100%;
+    margin-top: 0%;
+    padding: 10%;
+    margin-bottom: 0%;
+ }
+ .addr p{
+font-weight: 500;
+
+ }
+ .maa{
+    display: block;
+   border-right: none;
+   padding-bottom: 20px;
+ }
+ .col-lg-4 h1 {
+    text-align: center; /* Center the text */
+    margin: 0 auto; /* Add margin to center */
+}
+
+/* Adjust the layout so columns stack vertically */
+.col-lg-4 {
+    flex: 1 1 100%; /* Make each column take full width */
+    text-align: center; /* Center text in all columns */
+}
+.rub .col-sm-12{
+    margin-bottom: 5%;
+}
+.navbar .navbar-toggler{
+  filter: invert(100%);
+}
+
+}
+@keyframes appear{
+    from{
+        opacity: 0.1;
+        scale:0.5;
+    }
+    to{
+        opacity: 1;
+        scale:1;
+    }
+
+  
+}
+h1,p,.prim,img{
+animation: appear  linear;
+animation-timeline: view();
+animation-range:entry 0% cover 40%;
+}
